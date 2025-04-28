@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nishant Agnihotri - Portfolio</title>
+    <style>
+        body { font-family: 'Poppins', sans-serif; margin: 0; background: #f2f6fc; color: #333; }
+        header { background: linear-gradient(135deg, #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5); color: white; padding: 2rem; text-align: center; }
+        nav { background: white; padding: 1rem; box-shadow: 0 2px 10px rgba(0,0,0,0.1); position: sticky; top: 0; z-index: 100; }
+        nav a { 
+            display: inline-block;
+            margin: 0 20px; 
+            padding: 10px 20px;
+            text-decoration: none; 
+            color: #d62976; 
+            font-weight: 600; 
+            background: #ffe3ec;
+            border-radius: 30px;
+            transition: background 0.3s, color 0.3s;
+        }
+        nav a:hover { background: #d62976; color: #fff; }
+        section { padding: 3rem 1rem; max-width: 1100px; margin: auto; }
+        h2 { color: #d62976; margin-bottom: 1rem; }
+        .card { background: white; padding: 2rem; margin-bottom: 2rem; border-radius: 15px; box-shadow: 0 4px 20px rgba(0,0,0,0.05); transition: transform 0.3s; }
+        .card:hover { transform: translateY(-5px); }
+        footer { background: linear-gradient(135deg, #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5); color: white; text-align: center; padding: 1.5rem; margin-top: 3rem; }
+        ul { padding-left: 20px; }
+        li { margin-bottom: 0.8rem; }
+        .contact-links a { color: #fff; margin: 0 12px; text-decoration: underline; }
+        .project-title { font-weight: bold; margin-top: 1rem; }
+        .project-desc { margin: 0.5rem 0 1rem 0; color: #555; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Nishant Agnihotri</h1>
+    <p>Communication and Information Technology | IIT Delhi</p>
+    <div class="contact-links">
+        <a href="mailto:nishantagnihotri38@gmail.com">Email</a>
+        <a href="https://github.com/Nishant38" target="_blank">GitHub</a>
+        <a href="https://www.linkedin.com/in/nishant-agnihotri-b2467820a/" target="_blank">LinkedIn</a>
+    </div>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#education">Education</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#achievements">Achievements</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+    <div class="card">
+        <h2>About Me</h2>
+        <p>I'm Nishant Agnihotri, a passionate tech enthusiast, currently pursuing M.Tech at IIT Delhi. I specialize in software development, machine learning, cloud computing, and data visualization. I love solving real-world problems through innovative tech solutions.</p>
+    </div>
+</section>
+
+<section id="education">
+    <div class="card">
+        <h2>Education</h2>
+        <ul>
+            <li><strong>Indian Institute of Technology, Delhi</strong> - M.Tech (2024-2026)</li>
+            <li><strong>Babu Banarasi Das Northern India Institute of Technology</strong> - B.Tech CSE (2020-2024) | CGPA: 8.1</li>
+            <li><strong>Saint James Sr. Sec. School</strong> - Intermediate (2019-2020)</li>
+        </ul>
+    </div>
+</section>
+
+<section id="skills">
+    <div class="card">
+        <h2>Technical Skills</h2>
+        <ul>
+            <li><strong>Languages:</strong> C++, Python, HTML/CSS, JavaScript, MySQL</li>
+            <li><strong>Developer Tools:</strong> VS Code, Docker, Kubernetes, Git, GitHub, Azure, MATLAB</li>
+            <li><strong>Frameworks & Technologies:</strong> ReactJS, Django, TensorFlow, Kubeflow, NextJS</li>
+        </ul>
+    </div>
+</section>
+
+<section id="projects">
+    <div class="card">
+        <h2>Projects</h2>
+        <div class="project-title">Analyzer and ANFIS Predictor Model for Travel Data</div>
+        <div class="project-desc">Built a Django-based system using real-time travel data from Kaggle and Amadeus APIs to predict and recommend travel prices, visualize trends, and generate insights.</div>
+
+        <div class="project-title">Cloud-Native Data Science Pipeline</div>
+        <div class="project-desc">Designed an end-to-end ML pipeline using Kubernetes, Docker, TensorFlow, Kubeflow with deployment on AWS cloud storage, focusing on MLOps and scalable model automation.</div>
+
+        <div class="project-title">Context-Aware Chart Recommendation System</div>
+        <div class="project-desc">Created a recommendation engine for data dashboards using NextJS, ReactJS, and ML to suggest appropriate charts based on input data context and historical patterns.</div>
+
+        <div class="project-title">Product Catalogue Application</div>
+        <div class="project-desc">Developed a Flask web app integrated with Azure Blob Storage and Computer Vision, enabling users to add, delete, and list products with AI-generated image descriptions.</div>
+
+        <div class="project-title">Graph Visualization</div>
+        <div class="project-desc">Visualized complex graphs using Gephi and Jupyter, applying layouts like Fruchterman-Reingold and ForceAtlas2; analyzed node degree and clustering properties.</div>
+
+        <div class="project-title">Pricify - Shopping Webscraper and Notifier</div>
+        <div class="project-desc">Built a full-stack web app using NextJS, ExpressJS for tracking product prices across platforms and notifying users about significant price drops.</div>
+
+        <div class="project-title">Signal Transmission and Reception</div>
+        <div class="project-desc">Used HackRF One and GNU Radio to build and analyze wireless signal transmission systems, investigating modulation impacts and noise resilience.</div>
+
+        <div class="project-title">Audio Signal Statistical Analysis</div>
+        <div class="project-desc">Analyzed audio signals in MATLAB, applied FIR filtering, DFTs, and studied time-frequency domain relationships for signal processing tasks.</div>
+    </div>
+</section>
+
+<section id="achievements">
+    <div class="card">
+        <h2>Achievements</h2>
+        <ul>
+            <li>98.67 percentile in GATE CS among 150,000 students</li>
+            <li>Completed DeepLearning.AI Supervised Machine Learning Course by Andrew Ng</li>
+            <li>Certified in C++ Development by Google Dev</li>
+            <li>Completed Google Full Stack Development and UI/UX Certification</li>
+            <li>Certified in Data Structures by Microsoft Learn</li>
+            <li>Zonal-level Basketball Player (Khelo India 2023 Participant)</li>
+        </ul>
+    </div>
+</section>
+
+<section id="contact">
+    <div class="card">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:nishantagnihotri38@gmail.com">nishantagnihotri38@gmail.com</a></p>
+        <p>Phone: 8299638691</p>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2025 Nishant Agnihotri | Designed with Passion and Precision</p>
+</footer>
+
+<script>
+    // Smooth scrolling effect
+    document.querySelectorAll('nav a').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+            document.querySelector(this.getAttribute('href')).scrollIntoView({
+                behavior: 'smooth'
+            });
+        });
+    });
+</script>
+
+</body>
+</html>
